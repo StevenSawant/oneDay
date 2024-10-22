@@ -1,6 +1,13 @@
 docker run -it -v C:/Users/truea/OneDrive/Desktop/docker:/usr/src/my-app -w /usr/src/my-app python python sum_fixed_numbers.py
 10 + 20 = 30
 
+docker start <container_name>/<container_id>
+docker stop <container_name>/<container_id> can stop multiple containers as well.
+docker pull <image_name>
+docker run -it <image_name>
+docker run --name <container_name> <image_name> 
+docker ps -a
+
 
 pipeline {
     agent any
